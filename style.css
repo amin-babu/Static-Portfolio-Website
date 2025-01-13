@@ -130,6 +130,7 @@ nav .right a span{
   margin: 10px;
   border: 2px solid #d3d3d3;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .skill-section .cells .cell img{
