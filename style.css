@@ -96,19 +96,51 @@ nav .right a span{
   border-radius: 50%;
 }
 
+/* ----Skills Section----- */
 
+.skill-section{
+  padding: 0 50px;
+  margin-bottom: 100px;
+}
 
+.skill-section h2{
+  font-size: 32px;
+  text-align: center;
+}
 
+.skill-section .text{
+  text-align: center;
+  width: 80%;
+  margin: 0 auto 20px;
+}
 
+.skill-section .cells{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.skill-section .cells .cell{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+}
 
+.skill-section .cells .cell img{
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
 
-
-
-
-
-
-
+.skill-section .cells .cell span{
+  font-size: 18px;
+}
 
 
 
