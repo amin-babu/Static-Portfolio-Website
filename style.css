@@ -143,6 +143,49 @@ nav .right a span{
   font-size: 18px;
 }
 
+/* -----------Project Section-------------- */
+
+.project_section .project_heading{
+  text-align: center;
+}
+
+.project_section .project_heading h2{
+  font-size: 32px;
+  margin-bottom: 7px;
+}
+
+.project_container{
+  padding: 50px 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.project_container .project{
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.project_container .project h4{
+  font-size: 20px;
+}
+
+.project_container .project p{
+  margin: 12px 0 18px;
+  color: #424242;
+}
+
+.project_container .project .links a{
+  padding: 6px 8px;
+  border: 1px solid var(--link-color);
+  border-radius: 4px;
+  margin-right: 12px;
+  display: inline-block;
+}
+
+
 /* -------Contact Section-------- */
 
 .contact-section {
