@@ -197,6 +197,12 @@ nav .right a span{
   filter: brightness(0.7);
 }
 
+/* ----footer----- */
 
-
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
 
